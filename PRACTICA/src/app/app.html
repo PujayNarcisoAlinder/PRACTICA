@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PRACTICA</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <h2>Registro de usuarios</h2>
+  <br>
+  <input [(ngModel)]="nuevousuario.nombre" placeholder="ingrese usuario">
+  <input [(ngModel)]="nuevousuario.contraseña" placeholder="ingrese contraseña">
+  <button (click)="registrar()">registrar datos</button>
+</body>
+</html>
